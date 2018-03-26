@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from keyboard import on_press, on_release, send, wait
-from win32gui import GetWindowText, GetForegroundWindow
-from datetime import datetime
 
 def KeyPressed(event):
 	global bCtrlDown, bSpaceDown, bSwitchLan
